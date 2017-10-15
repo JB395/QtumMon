@@ -1,0 +1,19 @@
+# qtumMonConfig.txt
+#
+# configuration file for QtumMon.py
+# Last change 10/14/2017
+#
+
+"hostname": LD18,                               # used to label this machine, useful for multi-machine environments
+"sendemail": true,                              # send an email when get reward, or in errors
+"sendhourlyemail": true,                        # send an email on the hour with status
+"setdomestic": true,                            # send the email to a domestic or international mobile
+"domesticaddress": 9876543210@txt.att.net,      # email for domestic
+"internationaladdress": 87654321@starhubenterprisemessaging.com   # email for international
+"enablelogging": true,                          # enable logging to a local file
+"emailaddress": mygmail@gmail.com,              # email address for sending
+"emailusername": mygmail,		        # user name for email login
+"emailpassword": apgzvyhmeneljjlr,              # password for email login
+"UTCtimezoneoffset": 8,		                # local time zone offset from UTC
+
+ 
