@@ -1,5 +1,6 @@
 # QtumMon
 A python script to monitor a wallet server app on the Qtum blockchain, log new blocks, and send emails/texts for PoS staking events.
+
 Description:
 A program to monitor the Qtum wallet server application qtumd application, send emails and logs activity. QtumMon uses qtum-cli to send RPC queries to the qtumd server application to identify staking events, and log various activities of the application. QtumMon sends a query to check for a new block approximately every 4 seconds. QtumMon will check that qtumd is running with staking enabled (ecrypted for staking).
 
@@ -30,17 +31,29 @@ marked "#PY3" and uncomment out all the following print statements marked "#PY2"
 Pre-GitHub Revisions
 
 10/09/2017 Bug fix, detect new stake
+
 10/05/2017 Queued messages during doNotDisturb times
+
 10/03/2017 Changed waiting loop to 3..6 seconds variable
+
 09/30/2017 Added comments to run in Python 2 or 3
+
 09/29/2017 Added doNotDisturb[], removed Windows functions
+
 09/28/2017 Print formatting with commas
+
 09/27/2017 Read config file on startup
+
 09/27/2017 Adding check for staking turned on
+
 09/26/2017 Using getblocknumber every 6 seconds for pacing
+
 09/26/2017 Added functions for parsing numbers and letters
+
 09/25/2017 Added multi (overlapping) reward alerts
+
 09/24/2017 Adding logging .csv file to current directory
+
 09/22/2017 All new
 
 
