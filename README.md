@@ -2,7 +2,7 @@
 A python script to monitor a wallet server app on the Qtum blockchain, log new blocks, and send emails/texts for PoS staking events.
 
 Description:
-A program to monitor the Qtum wallet server application qtumd application, send emails and logs activity. QtumMon uses qtum-cli to send RPC queries to the qtumd server application to identify staking events, and log various activities of the application. QtumMon sends a query to check for a new block approximately every 4 seconds. QtumMon will check that qtumd is running with staking enabled (ecrypted for staking).
+A program to monitor the Qtum wallet server application qtumd application, send emails and logs activity. QtumMon uses qtum-cli to send RPC queries to the qtumd server application to identify staking events, and log various activities of the application. QtumMon sends a query to check for a new block approximately every 4 seconds. QtumMon will check that qtumd is running with staking enabled (decrypted for staking).
 
 Installation:
 qtumd and QtumMon do not require any path setup. These files should be located in the same directory/folder, and both qtumd and QtumMon run from that directory. QtumMon will write the log files to that same directory. Python 2.7 or 3.6 should be installed.  For sending emails, an email account with login enabled for the Python script is required. See the document “Gmail Device Password Setup” for advice on how to enable this for Gmail.
